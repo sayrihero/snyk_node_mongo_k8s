@@ -17,6 +17,7 @@ spec:
       containers:
       - image: <<DOCKERID>>/goof:dev #Edit with your Docker Hub ID
         name: goof
+        imagePullPolicy: Always
         ports:
         - containerPort: 3001
         - containerPort: 9229
