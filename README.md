@@ -1,3 +1,9 @@
+# Welcome! 
+
+This is the sample code for the [Docker Partner Workshop on Snyk Academy](https://solutions.snyk.io/partner-workshops/docker/lab-build-secure-containers-with-docker-and-snyk).
+
+It uses Snyk's [Goof](https://snyk.io/test/github/snyk/goof) vulnerable demo app. More on Goof below: 
+
 # Goof - Snyk's vulnerable demo app
 [![Known Vulnerabilities](https://snyk.io/test/github/snyk/goof/badge.svg?style=flat-square)](https://snyk.io/test/github/snyk/goof)
 
