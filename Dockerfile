@@ -7,6 +7,5 @@ WORKDIR /usr/src/goof
 
 RUN npm update
 RUN npm install
-EXPOSE 3001
-EXPOSE 9229
+EXPOSE 3000
 ENTRYPOINT ["npm", "start"]
