@@ -15,7 +15,7 @@ spec:
         app: goof
     spec:
       containers:
-      - image: <<DOCKERID>>/goof:dev #Edit with your Docker Hub ID
+      - image: sayhero/unir_act_web_3
         name: goof
         imagePullPolicy: Always
         ports:
