@@ -4,8 +4,8 @@ metadata:
   name: mongo-data
 spec:
   accessModes:
-    - ReadWriteMany
+    - ReadWriteOnce
   capacity:
-    storage: 1Gi
+    storage: 4Gi
   hostPath:
     path: /data/mongo
